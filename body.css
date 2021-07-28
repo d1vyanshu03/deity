@@ -1,0 +1,143 @@
+body {
+  background-image: url('sparkee.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #f6dfeb;
+}
+
+hr {
+  background-color: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 20px;
+  border-color: #03256c;
+  height: 0px;
+  width: 10%;
+}
+h3 {
+  /* margin-left: 10px; */
+  font-family: serif;
+  font-style: normal;
+  color: #03256c;
+}
+h4 {
+  /* margin-left: 10px; */
+  font-family: serif;
+  /* margin-left: 10px; */
+  color: #03256c;
+}
+h1 {
+  border-bottom: 0px;
+  text-shadow: 3px 3px #334257;
+  font-size: 3.2rem;
+  font-family: fantasy;
+  text-align: center;
+  color: red;
+}
+h5 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  border-top: 0px;
+  border-bottom: 2px;
+  font-family: cursive;
+  /* margin-left: 120px; */
+  text-align: center;
+  color: #57837b;
+  font-size: 1.2rem;
+}
+p {
+  font-stretch: semi-condensed;
+  font-kerning: auto;
+  font-synthesis: style;
+  font-style: oblique;
+  font-family: cursive;
+
+  color: #57837b;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.img-pro {
+  flex-basis: 50%;
+  margin-right: 100px;
+  text-align: left;
+}
+.img-pro > img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.pro-info {
+  flex-basis: 50%;
+}
+.pro-info > p {
+  padding-right: 100px;
+}
+.pro-info > h3 {
+  color: #fff;
+}
+
+#h1{
+font-size: 30px;  
+margin:0;
+color: darkblue;
+font-weight: 800;
+}
+.icons{
+  padding:20px
+}
+.icon a >img{
+  max-width: 40%;
+  height: auto;
+  transition: .4s ease all;
+}
+.icon a>img:hover{
+  /* transform: rotate(360deg); */
+  transform: scale(1.2);
+}
+.icons{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 50px;
+}
+.icon a>img{
+  margin-left: 100px;
+}
+.container{
+  display: flex;
+ justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.collage-img>img{
+width: 600px;
+text-align: center;
+border-radius: 15px;
+
+}
+
+.collage-img{
+  text-align: center;
+  margin-top: 50px;
+}
+.collage-img>h1{
+  color: rgb(27, 211, 196);
+  font-weight: 100;
+}
+.flower{
+  text-align: center;
+}
+.flower>img{
+  width: 33%;
+  transition: .4s ease all;
+  margin-bottom: 100px;
+}
+.flower>img:hover{
+  transform: rotate(180deg);
+}
